@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  bingo:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      no_cache: true
+    environment:
+#      - BING_HEADER=xxx
+    ports:
+      - "7860:7860"
