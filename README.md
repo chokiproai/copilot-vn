@@ -8,6 +8,14 @@
 ## 📦 CodeSandBox
 > ## [![Deploy on CodeSandBox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/devbox/github/chokiproai/copilot-vn/tree/master?import=true)
 
+### Cách nhận BING_COOKIE (Không cần thiết)
+
+> Định cấu hình BING_COOKIE nghĩa là bạn chia sẻ tài khoản của mình với tất cả những người sử dụng dịch vụ này, chức năng vẽ mà không cần đăng nhập nên đặt biến này. Mở https://www.bing.com và Đăng nhập, sau đó sao chép Sao chép dưới dạng cURL (bash)
+
+![BING_COOKIE](https://github-production-user-asset-6210df.s3.amazonaws.com/128912789/283979541-9ddecd5c-4fd4-41e8-b699-dbb185242757.png)
+
+> Sau khi triển khai, hãy đăng nhập vào tài khoản bing đó và mở bảng điều khiển dành cho nhà phát triển. Sau đó dán mã <a href="/.env.example">Env.Example</a>
+
 ## Giới Thiệu
 - ⭐ Dựa trên Microsoft New Bing, trang web Microsoft New Bing được tùy chỉnh đơn giản với Vue3 và Go. Nó có trải nghiệm giao diện người dùng nhất quán, hỗ trợ các từ nhắc ChatGPT, có sẵn và về cơ bản tương thích với tất cả các chức năng của Microsoft Bing AI. có thể trò chuyện mà không cần đăng nhập.
 
@@ -37,4 +45,4 @@
 - [x] Lịch sử trò chuyện
 - [x] Xuất tin nhắn sang cục bộ (Markdown, hình ảnh, PDF)
 - [x] Kiểm soát truy cập đơn giản
-- [x] Hỗ trợ lệnh gọi API định dạng OpenAI - [🤔 API OpenAI](https://github.com/chokiproai/AI-Copilot-EN/issues/3)
+- [x] Hỗ trợ lệnh gọi API định dạng OpenAI - [🤔 API OpenAI](https://github.com/chokiproai/copilot-vn/blob/master/API.md)
