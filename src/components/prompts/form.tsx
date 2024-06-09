@@ -49,6 +49,7 @@ const PromptItem = (props: {
       </div>
     </div>
   )
+}
 
 function PromptForm(props: { initialData: Prompt; onSubmit: (data: Prompt) => void; onClose: () => void }) {
   const onSubmit = useCallback(
@@ -83,6 +84,7 @@ function PromptForm(props: { initialData: Prompt; onSubmit: (data: Prompt) => vo
       </div>
     </form>
   )
+}
 
 function LocalPrompts(props: { insertPrompt: (text: string) => void }) {
   const [formData, setFormData] = useState<Prompt | null>(null)
@@ -144,7 +146,7 @@ function CommunityPrompts(props: { insertPrompt: (text: string) => void }) {
   const [remotePrompts, setRemotePrompts] = useState<Prompt[]>([])
 
   useEffect(() => {
-    fetch('./prompts/vi.json')
+    fetch('./prompts/zh-CN.json')
     .then(res => res.json())
     .then(data => {
       setRemotePrompts(data)
@@ -193,8 +195,8 @@ const Prompts = (props: { insertPrompt: (text: string) => void }) => {
 
   const tabs = useMemo<Tab[]>(
     () => [
-      { name: 'Từ điển của tôi', value: 'local' },
-      { name: 'Từ điển công khai', value: 'network' },
+      { name: '我的词库', value: 'local' },
+      { name: '公开词库', value: 'network' },
     ],
     [],
   )
