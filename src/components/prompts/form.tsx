@@ -146,7 +146,7 @@ function CommunityPrompts(props: { insertPrompt: (text: string) => void }) {
   const [remotePrompts, setRemotePrompts] = useState<Prompt[]>([])
 
   useEffect(() => {
-    fetch('./prompts/zh-CN.json')
+    fetch('./prompts/vi-VN.json')
     .then(res => res.json())
     .then(data => {
       setRemotePrompts(data)
