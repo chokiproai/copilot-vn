@@ -6,7 +6,7 @@
 > English language: [copilot-en](https://github.com/chokiproai/copilot-en)
 
 ## 📦 CodeSandBox
-> ## [![Deploy on CodeSandBox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/devbox/github/chokiproai/copilot-vn/tree/master?import=true)
+> ## [![Deploy on CodeSandBox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/chokiproai/copilot-vn/master)
 
 ### Cách nhận BING_COOKIE (Không cần thiết)
 
