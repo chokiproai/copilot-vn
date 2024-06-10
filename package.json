@@ -1,10 +1,10 @@
 {
-  "name": "bingo",
-  "version": "1.4.0",
+  "name": "copilot-vn",
+  "version": "1.4.5",
   "private": true,
   "main": "./cloudflare/cli.js",
   "scripts": {
-    "dev": "cross-env DEBUG=bingo* NODE_ENV=development node ./server.js",
+    "dev": "cross-env DEBUG=copilot-vn* NODE_ENV=development node ./server.js",
     "build": "next build",
     "proxy": "node ./cloudflare/cli.js",
     "start": "node ./scripts/pre-check.js && cross-env NODE_ENV=production node ./server.js",
