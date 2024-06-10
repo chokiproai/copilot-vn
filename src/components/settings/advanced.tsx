@@ -39,7 +39,7 @@ export function AdvancedSetting() {
       </DialogHeader>
 
       <div className="flex flex-col gap-2">
-      Vượt qua giới hạn cuộc trò chuyện 😢
+      Vượt qua giới hạn cuộc trò chuyện 😎
         <Switch
           checked={enableUnlimit}
           className={`${enableUnlimit ? 'bg-blue-600' : 'bg-gray-200'} relative inline-flex h-6 w-11 items-center rounded-full`}

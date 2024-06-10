@@ -136,14 +136,14 @@ export function Settings() {
                 }
                 setCookie('IMAGE_ONLY', RegExp.$1 === 'cn' || imageOnly || !headerValue ? '1' : '0')
 
-                toast.success('保存成功')
+                toast.success('Đã lưu thành công')
                 setLoc('')
                 setTimeout(() => {
                   location.href = './'
                 }, 2000)
               }}
             >
-              保存
+              Lưu
             </Button>
           </DialogFooter>
         </DialogContent>
@@ -158,14 +158,14 @@ export function Settings() {
             <Button
               variant="primary"
               onClick={() => {
-                toast.success('保存成功')
+                toast.success('Đã lưu thành công')
                 setLoc('')
                 setTimeout(() => {
                   location.href = './'
                 }, 2000)
               }}
             >
-              保存
+              Lưu
             </Button>
           </DialogFooter>
         </DialogContent>
