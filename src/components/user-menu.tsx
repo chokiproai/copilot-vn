@@ -30,7 +30,7 @@ export function UserMenu() {
 
   useEffect(() => {
     if (isCopied) {
-      toast.success('复制成功')
+      toast.success('Đã sao chép thành công')
     }
   }, [isCopied])
   return (

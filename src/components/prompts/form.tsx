@@ -173,7 +173,7 @@ function CommunityPrompts(props: { insertPrompt: (text: string) => void }) {
       <span className="text-sm mt-5 block text-primary-text">
       Địa chỉ đóng góp lời nhắc:
         <a
-          href="https://github.com/chokiproai/copilot-vn"
+          href="https://github.com/chokiproai/prompt"
           target="_blank"
           rel="noreferrer"
           className="underline"
@@ -195,8 +195,8 @@ const Prompts = (props: { insertPrompt: (text: string) => void }) => {
 
   const tabs = useMemo<Tab[]>(
     () => [
-      { name: '我的词库', value: 'local' },
-      { name: '公开词库', value: 'network' },
+      { name: 'Của tôi', value: 'local' },
+      { name: 'Công cộng', value: 'network' },
     ],
     [],
   )
