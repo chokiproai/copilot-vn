@@ -1,5 +1,3 @@
-FROM dogpc1234231/copilot-vn as build
-
 FROM mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye
 
 ARG DEBIAN_FRONTEND=noninteractive
